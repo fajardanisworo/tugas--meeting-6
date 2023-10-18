@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: opx;
+  font-family: sans-serif;
+}
+
+.row {
+  margin-top: 30px !important;
+}
+
+.borderr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 0px;
+}
+
+.border1,
+.border2,
+.border3 {
+  border-top: 1px solid rgba(0, 0, 0, 0.096);
+  border-right: 1px solid rgba(0, 0, 0, 0.096);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.096);
+}
+
+.border4 {
+  border-top: 1px solid rgba(0, 0, 0, 0.096);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.096);
+}
+
+@media screen and (max-width: 992px) {
+  .border2 {
+    border-right: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .border1,
+  .border3 {
+    border-right: none;
+  }
+}
+
+.fa-phone {
+  font-size: 24px;
+  margin: 0px 0px 4 px;
+  color: rgb(255, 145, 0);
+  margin-bottom: 10px;
+}
+
+.fa-train {
+  font-size: 24px;
+  margin: 0px 0px 4 px;
+  color: red;
+  margin-bottom: 10px;
+}
+.fa-bus {
+  font-size: 24px;
+  margin: 0px 0px 4 px;
+  color: red;
+  margin-bottom: 10px;
+}
+.fa-youtube {
+  font-size: 24px;
+  margin: 0px 0px 4 px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.borderr > h1 {
+  color: #1e293b;
+  font-size: 24px;
+}
+
+.borderr > span {
+  color: #64748b;
+  font-size: 14px;
+}
